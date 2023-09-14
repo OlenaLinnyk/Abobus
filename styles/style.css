@@ -1,0 +1,52 @@
+html {
+    font-size: 14px; /* px значит 'пиксели': базовый шрифт будет 10 пикселей в высоту  */
+    font-family: 'Nunito', sans-serif;
+    background-color: hsl(209, 24%, 60%);
+  }
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+  }
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+  }
+  
+p,
+li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+  }
+
+body {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: hsl(209, 51%, 76%);
+    padding: 20px 20px 20px 20px;
+    border: 5px solid hsl(209, 24%, 28%);
+  }
+
+img {
+    display: block;
+    /*height: 500px;*/
+    margin: 0 auto;
+    border: 5px solid hsl(209, 24%, 28%);
+    border-radius: 25px;
+  }
+
+button {
+    width: 610px;
+    font-size: 30px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    margin: 0 auto;
+    display: block;
+    background-color: hsl(209, 24%, 60%);
+    border: 5px solid hsl(209, 24%, 28%);
+    border-radius: 10px;
+}
